@@ -10,4 +10,5 @@ packages = [{include = "prueva_despliegue"}]
 python = "^3.7"
 django = "^2.1"
 gunicorn = "^21.2.0"
+whitenoise == 6.5.0
 
