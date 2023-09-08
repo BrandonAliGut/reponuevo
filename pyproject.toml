@@ -7,5 +7,5 @@ readme = "README.md"
 packages = [{include = "prueva_despliegue"}]
 
 [tool.poetry.dependencies]
-python = "^3.8.2"
-django = "^4.2"
+python = "^3.10.9"
+django = "^4.2.5"
