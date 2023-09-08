@@ -8,5 +8,5 @@ packages = [{include = "prueva_despliegue"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-
+django = "^2.2.8"
 gunicorn = "^21.2.0"
