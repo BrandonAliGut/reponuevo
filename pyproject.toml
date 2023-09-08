@@ -10,4 +10,4 @@ packages = [{include = "prueva_despliegue"}]
 python = "^3.8"
 django = "^2.2.8"
 gunicorn = "^21.2.0"
-importlib-metadata = "^6.5.1"
+importlib-metadata = "^6.0.0"
