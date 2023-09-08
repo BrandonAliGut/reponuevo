@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "prueva-despliegue"
+version = "0.1.0"
+description = ""
+authors = ["Brandon <bg4710699@gmail.com>"]
+readme = "README.md"
+packages = [{include = "prueva_despliegue"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.5"
+djangorestframework = "^3.14.0"
+pillow = "^10.0.0"
+django-cors-headers = "^4.2.0"
+whitenoise = {extras = ["brotli"], version = "^6.5.0"}
+gunicorn = "^21.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
