@@ -4,11 +4,13 @@ version = "0.1.0"
 description = ""
 authors = ["Brandon <bg4710699@gmail.com>"]
 readme = "README.md"
-packages = [{include = "prueva_despliegue"}]
+packages = [{include = ["prueva_despliegue","User"] }]
 
 [tool.poetry.dependencies]
 python = "^3.7"
 django = "^2.1"
 gunicorn = "^21.2.0"
 whitenoise = "^6.5.0"
+
+
 
