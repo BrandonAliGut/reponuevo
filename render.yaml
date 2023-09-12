@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: appServicios
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn appServicios.wsgi:application"
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
